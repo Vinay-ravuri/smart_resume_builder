@@ -31,7 +31,7 @@ Coming soon...
 ## 📸 Screenshots
 
 ### Landing Page
-![Landing](screenshots/landingPage.png)
+![Landing](screenshots/LandingPage.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
