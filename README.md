@@ -3,7 +3,7 @@
 A full-stack MERN web application that helps users create
 professional resumes with AI-powered content generation.
 
-![Landing Page](screenshots/landing.png)
+![Landing Page](screenshots/LandingPage.png)
 
 ## Live Demo
 Coming soon...
