@@ -7,6 +7,7 @@ import RegisterPage from './pages/RegisterPage';
 import Dashboard from './pages/Dashboard';
 import ResumeBuilder from './pages/ResumeBuilder';
 import ResumePreview from './pages/ResumePreview';
+import AITools from './pages/AITools';
 
 const PrivateRoute = ({ children }) => {
   const { user } = useAuth();
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/dashboard" element={<PrivateRoute><Dashboard /></PrivateRoute>} />
           <Route path="/builder/:id?" element={<PrivateRoute><ResumeBuilder /></PrivateRoute>} />
           <Route path="/preview/:id" element={<PrivateRoute><ResumePreview /></PrivateRoute>} />
+          <Route path="/ai-tools" element={<PrivateRoute><AITools /></PrivateRoute>} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
